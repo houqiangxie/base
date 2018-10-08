@@ -1,0 +1,55 @@
+# 基本js库方法
+| js方法名          | 参数          | 功能描述
+| :------           | :------:      | :------ 
+| HashRoute         |无             | 设置路由，分开加载js文件，参照调用示例
+| GetRequestPrams         |无             | 获取url参数对象，返回值为包含多个参数的对象，没有则为空对象
+| BrowserScreen         |无             | 获取浏览器or屏幕尺寸，返回为包含宽高的对象
+| CloseWindow         |无             | 关闭浏览器，对各种浏览器做了兼容处理
+| CloseWinReresh         |无             | 关闭浏览器，刷新打开此页面的根页面
+| IsWap         |无             | 判断终端是pc还是mobile
+| BrowserType         |无             | 获取浏览器名称
+| IsWechat         |无             | 判断是不是微信
+| FlashCheck         |无             | 检查浏览器加载flash以及flash版本
+| TextOverflowEllipsis         |无             | 文字溢出省略
+| TimeCount         |见注释             | 倒计时，A模式为固定值(3600)，B模式为固定时间(2017 03 06 12:37)
+| ReturnNowTime         |见注释             | 返回任意形式的当前时间
+| ReminTime         |见注释             | 某一时间距离现在还剩多久
+| TimeAgo         |见注释             | 某一时间到现在过去了多久
+| HttpRequest         |见注释             | 通过ajax发起网络请求
+| ScrollBar         |见注释             | 垂直滚动滚动条
+| GotoTop         |见注释             | 点击回顶
+| ImgErrorHander         |见注释             | 图片未加载出来执行的方法
+| SetLocalStorage         |见注释             | 设置本地存储
+| GetLocalStorage         |见注释             | 获取本地存储
+| RemoveLocalStorage         |见注释             | 清除本地存储
+| RereshLocalData         |见注释             | 用于监视本地存储数据的变化
+| GetData         |见注释             | 对于不变的比较大的数据，若有本地存储则取本地存储，没有则网络请求获取
+| TableBar         |见注释             | tableBar切换
+| FadeInfo         |见注释             | 鼠标悬停显示，离开隐藏（淡入淡出）
+| SlideInfo         |见注释             | 鼠标悬停显示，离开隐藏（滑入滑出）
+| LazyLoad         |见注释             | 图片懒加载
+| Banner         |见注释             | 滑动轮播图
+| Layer         |见注释             | 弹层
+| Paganation         |见注释             | 分页，依赖于jquery.page.js
+| Qrcode         |见注释             | 二维码，依赖于jquery.qrcode.min.js
+| JDStairNav         |见注释             | 京东楼梯导航
+| getMobileOperatingSystem         |无             | 获取移动终端的操作系统
+| setupWebViewJavascriptBridge         |见注释            | 设置页面js桥
+| connectWebViewJavascriptBridge         |见注释            | 连接页面js桥
+| SuccessCallBack         |见注释            | H5更新数据成功后，给客户端传递信息
+| ClientWebViewConnect         |见注释            | 与客户端webview的交互（待测）
+| DropLoadReresh         |见注释            | 下拉刷新，上拉加载更多
+| GestureHander         |见注释            | 移动端手势（上下左右）
+| AddFavorite         |见注释            | 加入收藏夹
+| GetAllUrl         |见注释            | 提取页面中所有的网址
+| Base64Decode         |见注释            | 将base64解码
+| GetUrlState         |见注释            | 检测url的有效性
+| EncodeHtml         |见注释            | 将html转义
+| OpenWindow         |见注释            | 打开窗口
+| RemoveUrlPrefix         |见注释            | 去掉url前缀http://
+| SetCookie         |见注释            | 设置cookie
+| GetCookie         |见注释            | 获取cookie
+| SetHomepage         |见注释            | 将网址设为首页
+| TransMoney         |见注释            | 将金额转换成大写
+| RandomTimeStamp         |见注释            | 生成随机数时间戳
+| Utf8Decode         |见注释            | utf-8解码
